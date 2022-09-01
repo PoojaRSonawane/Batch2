@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <form>
+    <h1>Contact Info</h1>
+    <input type="text" placeholder="first and Last name" name="flname" pattern="^[A-Z][a-z]+\s[A-Z][a-z]+$" required/>
+    <input type="email" placeholder="email address" name="email" required/>
+    <input type="text" placeholder="phone number" name="phone" maxlength="10" pattern="[0-9]{10}"  required/>
+    <input type="url" placeholder="web address" name="web" required/>
+    <h2>Preferences</h2>
+    <input type="number" name="range" placeholder="# of rc" max="10" min="1" required/> <br>
+    </br>
+    <input type="submit" value="Submit Info"/>
+    </form>
+</body>
+</html>
